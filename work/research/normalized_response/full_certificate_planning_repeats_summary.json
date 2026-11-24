@@ -1,0 +1,256 @@
+{
+  "scope": "Three additional independent complete runs; original raw run excluded from reported repeat medians. Every family and method independently pays all response training; composition additionally pays all tube certificates. All per-state correctness and same-prediction SHA checks are retained by the called runner.",
+  "source_runner": "full_certificate_planning_study.py",
+  "method_order": "Repeats 1 and 3: mixed9 full then composition, mixed30 composition then full. Repeat 2 reverses family order and each family method order.",
+  "records": [
+    {
+      "repeat": 1,
+      "method": "full_current_corrected",
+      "families": 2,
+      "states": 3888,
+      "training_seconds": 0.515896082855761,
+      "training_samples": 756,
+      "offline_certificate_seconds": 0.0,
+      "online_seconds": 14.999160416424274,
+      "online_certificate_seconds": 12.621926955878735,
+      "menu_aggregation_seconds": 0.31251500081270933,
+      "common_selection_seconds": 0.02326341811567545,
+      "total_seconds": 15.85083491820842,
+      "certified": 3888,
+      "classification_errors": 0,
+      "speedup_vs_full_current_corrected": 1.0,
+      "time_reduction_vs_full_current_corrected": 0.0,
+      "certificate_including_offline_seconds": 12.621926955878735
+    },
+    {
+      "repeat": 1,
+      "method": "compositional",
+      "families": 2,
+      "states": 3888,
+      "training_seconds": 0.5144082503393292,
+      "training_samples": 756,
+      "offline_certificate_seconds": 0.26627887319773436,
+      "online_seconds": 3.513501831330359,
+      "online_certificate_seconds": 1.2092843558639288,
+      "menu_aggregation_seconds": 0.30574045795947313,
+      "common_selection_seconds": 0.022023167461156845,
+      "total_seconds": 4.621952580288053,
+      "certified": 3888,
+      "classification_errors": 0,
+      "speedup_vs_full_current_corrected": 3.429467231189238,
+      "time_reduction_vs_full_current_corrected": 0.7084095188589309,
+      "certificate_including_offline_seconds": 1.4755632290616632
+    },
+    {
+      "repeat": 2,
+      "method": "full_current_corrected",
+      "families": 2,
+      "states": 3888,
+      "training_seconds": 0.5214967085048556,
+      "training_samples": 756,
+      "offline_certificate_seconds": 0.0,
+      "online_seconds": 14.992861417122185,
+      "online_certificate_seconds": 12.620414672419429,
+      "menu_aggregation_seconds": 0.3094870010390878,
+      "common_selection_seconds": 0.0223710834980011,
+      "total_seconds": 15.84621621016413,
+      "certified": 3888,
+      "classification_errors": 0,
+      "speedup_vs_full_current_corrected": 1.0,
+      "time_reduction_vs_full_current_corrected": 0.0,
+      "certificate_including_offline_seconds": 12.620414672419429
+    },
+    {
+      "repeat": 2,
+      "method": "compositional",
+      "families": 2,
+      "states": 3888,
+      "training_seconds": 0.5154122915118933,
+      "training_samples": 756,
+      "offline_certificate_seconds": 0.2653527082875371,
+      "online_seconds": 3.5123490849509835,
+      "online_certificate_seconds": 1.2078584404662251,
+      "menu_aggregation_seconds": 0.30715049896389246,
+      "common_selection_seconds": 0.03234012518078089,
+      "total_seconds": 4.632604708895087,
+      "certified": 3888,
+      "classification_errors": 0,
+      "speedup_vs_full_current_corrected": 3.420584575182452,
+      "time_reduction_vs_full_current_corrected": 0.7076523097088864,
+      "certificate_including_offline_seconds": 1.4732111487537622
+    },
+    {
+      "repeat": 3,
+      "method": "full_current_corrected",
+      "families": 2,
+      "states": 3888,
+      "training_seconds": 0.5165202924981713,
+      "training_samples": 756,
+      "offline_certificate_seconds": 0.0,
+      "online_seconds": 14.976190249435604,
+      "online_certificate_seconds": 12.606945131905377,
+      "menu_aggregation_seconds": 0.3065825430676341,
+      "common_selection_seconds": 0.023210999555885792,
+      "total_seconds": 15.822504084557295,
+      "certified": 3888,
+      "classification_errors": 0,
+      "speedup_vs_full_current_corrected": 1.0,
+      "time_reduction_vs_full_current_corrected": 0.0,
+      "certificate_including_offline_seconds": 12.606945131905377
+    },
+    {
+      "repeat": 3,
+      "method": "compositional",
+      "families": 2,
+      "states": 3888,
+      "training_seconds": 0.5151805421337485,
+      "training_samples": 756,
+      "offline_certificate_seconds": 0.26656620763242245,
+      "online_seconds": 3.49878800008446,
+      "online_certificate_seconds": 1.204482950270176,
+      "menu_aggregation_seconds": 0.30786575097590685,
+      "common_selection_seconds": 0.02231895737349987,
+      "total_seconds": 4.6107194582000375,
+      "certified": 3888,
+      "classification_errors": 0,
+      "speedup_vs_full_current_corrected": 3.4316779036333274,
+      "time_reduction_vs_full_current_corrected": 0.7085973602180907,
+      "certificate_including_offline_seconds": 1.4710491579025984
+    }
+  ],
+  "method_summary": [
+    {
+      "method": "full_current_corrected",
+      "repeats": 3,
+      "total_seconds": {
+        "median": 15.84621621016413,
+        "minimum": 15.822504084557295,
+        "maximum": 15.85083491820842
+      },
+      "online_certificate_seconds": {
+        "median": 12.620414672419429,
+        "minimum": 12.606945131905377,
+        "maximum": 12.621926955878735
+      },
+      "certificate_including_offline_seconds": {
+        "median": 12.620414672419429,
+        "minimum": 12.606945131905377,
+        "maximum": 12.621926955878735
+      },
+      "training_seconds": {
+        "median": 0.5165202924981713,
+        "minimum": 0.515896082855761,
+        "maximum": 0.5214967085048556
+      },
+      "offline_certificate_seconds": {
+        "median": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0
+      },
+      "online_seconds": {
+        "median": 14.992861417122185,
+        "minimum": 14.976190249435604,
+        "maximum": 14.999160416424274
+      },
+      "menu_aggregation_seconds": {
+        "median": 0.3094870010390878,
+        "minimum": 0.3065825430676341,
+        "maximum": 0.31251500081270933
+      },
+      "common_selection_seconds": {
+        "median": 0.023210999555885792,
+        "minimum": 0.0223710834980011,
+        "maximum": 0.02326341811567545
+      }
+    },
+    {
+      "method": "compositional",
+      "repeats": 3,
+      "total_seconds": {
+        "median": 4.621952580288053,
+        "minimum": 4.6107194582000375,
+        "maximum": 4.632604708895087
+      },
+      "online_certificate_seconds": {
+        "median": 1.2078584404662251,
+        "minimum": 1.204482950270176,
+        "maximum": 1.2092843558639288
+      },
+      "certificate_including_offline_seconds": {
+        "median": 1.4732111487537622,
+        "minimum": 1.4710491579025984,
+        "maximum": 1.4755632290616632
+      },
+      "training_seconds": {
+        "median": 0.5151805421337485,
+        "minimum": 0.5144082503393292,
+        "maximum": 0.5154122915118933
+      },
+      "offline_certificate_seconds": {
+        "median": 0.26627887319773436,
+        "minimum": 0.2653527082875371,
+        "maximum": 0.26656620763242245
+      },
+      "online_seconds": {
+        "median": 3.5123490849509835,
+        "minimum": 3.49878800008446,
+        "maximum": 3.513501831330359
+      },
+      "menu_aggregation_seconds": {
+        "median": 0.30715049896389246,
+        "minimum": 0.30574045795947313,
+        "maximum": 0.30786575097590685
+      },
+      "common_selection_seconds": {
+        "median": 0.02231895737349987,
+        "minimum": 0.022023167461156845,
+        "maximum": 0.03234012518078089
+      }
+    }
+  ],
+  "paired_ratios": [
+    {
+      "repeat": 1,
+      "time_reduction": 0.7084095188589309,
+      "speedup": 3.429467231189238,
+      "online_certificate_time_reduction": 0.9041917799008734,
+      "offline_inclusive_certificate_time_reduction": 0.8830952489093267
+    },
+    {
+      "repeat": 2,
+      "time_reduction": 0.7076523097088864,
+      "speedup": 3.420584575182452,
+      "online_certificate_time_reduction": 0.9042932841893166,
+      "offline_inclusive_certificate_time_reduction": 0.883267611485595
+    },
+    {
+      "repeat": 3,
+      "time_reduction": 0.7085973602180907,
+      "speedup": 3.4316779036333274,
+      "online_certificate_time_reduction": 0.9044587774700552,
+      "offline_inclusive_certificate_time_reduction": 0.8833143840548889
+    }
+  ],
+  "paired_ratio_summary": {
+    "time_reduction": {
+      "median": 0.7084095188589309,
+      "minimum": 0.7076523097088864,
+      "maximum": 0.7085973602180907
+    },
+    "speedup": {
+      "median": 3.429467231189238,
+      "minimum": 3.420584575182452,
+      "maximum": 3.4316779036333274
+    },
+    "online_certificate_time_reduction": {
+      "median": 0.9042932841893166,
+      "minimum": 0.9041917799008734,
+      "maximum": 0.9044587774700552
+    },
+    "offline_inclusive_certificate_time_reduction": {
+      "median": 0.883267611485595,
+      "minimum": 0.8830952489093267,
+      "maximum": 0.8833143840548889
+    }
+  }
+}

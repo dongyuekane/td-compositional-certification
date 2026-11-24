@@ -1,0 +1,104 @@
+{
+  "frozen_utc": "2026-11-07T02:57:34.526799+00:00",
+  "status": "Declared synthetic benchmark frozen after feasibility pilot; development and stress cases are not independent field validation",
+  "family_loads": {
+    "mixed9": {
+      "development": [
+        0.9,
+        1.1,
+        1.25
+      ],
+      "stress": [
+        1.4
+      ]
+    },
+    "mixed30": {
+      "development": [
+        0.6,
+        0.7,
+        0.8
+      ],
+      "stress": [
+        0.9
+      ]
+    }
+  },
+  "shape_seed": 20261108,
+  "equal_development_weights": true,
+  "voltage_limits_pu": [
+    0.9,
+    1.1
+  ],
+  "limits_policy": "Original case30 branch and generator ratings retained; no headroom adjustment",
+  "planning_scope": "One common investment per family across the three normal development profiles. Fault references are separate finite-recourse diagnostics for selected portfolios, not a complete fault-constrained investment enumeration.",
+  "investment_levels": {
+    "T": [
+      0,
+      0.5,
+      1
+    ],
+    "X": [
+      0,
+      0.5,
+      1
+    ],
+    "F": [
+      0,
+      1
+    ],
+    "S": [
+      0,
+      1
+    ],
+    "R": [
+      0,
+      1
+    ],
+    "C": [
+      0,
+      1
+    ]
+  },
+  "costs_million_cny": {
+    "T": 1.2,
+    "X": 0.3684210526315789,
+    "F": 0.9,
+    "S": 0.25,
+    "R": 0.3,
+    "C": 0.24
+  },
+  "cost_status": "Explicit simulation assumptions, not vendor or utility quotations. T is scaled by the 100-to-10 MVA transmission model scaling; X/R/C are repriced for two physical interfaces; F/S retain target-feeder assumptions.",
+  "budget": null,
+  "objective": "Capital plus three-year discounted annual normal loss cost; equally weighted profiles; 600 CNY/MWh, 8760 hours/year, discount 0.05",
+  "taps": [
+    1.04,
+    1.075,
+    1.1
+  ],
+  "caps_mvar": [
+    0.0,
+    1.2
+  ],
+  "fault_service_grid": [
+    1.0,
+    0.95,
+    0.9,
+    0.8,
+    0.7,
+    0.6,
+    0.5,
+    0.4
+  ],
+  "precision": {
+    "newton_residual": 1e-10,
+    "feasibility_tolerance": 1e-07
+  },
+  "checkpoint_steps": [
+    1,
+    2,
+    3,
+    "converged"
+  ],
+  "checkpoint_start": "Flat Cartesian voltage; no warm start",
+  "source_sha256": "ff04557b3c7c55ea06dc48e9ea4c1ffcfcac8b3a57d4141abca5015b584e0ce3"
+}

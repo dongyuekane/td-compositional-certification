@@ -1,0 +1,39 @@
+{
+  "families": {
+    "mixed30": [
+      0.6,
+      0.7,
+      0.8
+    ],
+    "mixed9": [
+      0.9,
+      1.1,
+      1.25
+    ]
+  },
+  "shape_seed": 20261108,
+  "degree": 6,
+  "domain": [
+    0.4,
+    1.8
+  ],
+  "states_per_profile": 648,
+  "pipelines": [
+    "full_current_corrected",
+    "compositional"
+  ],
+  "timing": "Independent complete pipelines; each family/method independently builds its 54-response atlas. Online includes assembly, warm-start choice, reduced solve, fresh certificate/preconditioner, loss/constraint bounds, and result collection. Offline tube certificates are charged only to composition. Menu aggregation and common-investment selection are included in total. Reference I/O and validation are outside timers.",
+  "baseline": "Full-network current-injection inclusion with fresh Jacobian inverse; residual-corrected state and quadratic loss; direct electrical bounds first, structural current-output fallback only when unresolved.",
+  "same_prediction": "SHA256 of every profile prediction array must match between independently rerun pipelines.",
+  "fallback": "No certificate failure silently determines a planning result. Unresolved action remains possible in menu lower bound. No reference-dependent fallback.",
+  "scope": "Certified finite-menu planning evaluation at the locally certified high-voltage root; guarded binary64 implementation of real-arithmetic theorems, not formal interval arithmetic.",
+  "source_sha256": {
+    "research/normalized_response/atlas.py": "2e288370145488df43385fadc7cc2d9b79f69e1636e360adcbedc156548463f7",
+    "research/normalized_response/coupled_certificate.py": "f589b83a82e9b52e35b238be53a00640d404eed329aaceefd019117345d29770",
+    "research/normalized_response/run_study.py": "006059103f34c1414563fc4df8a5a33745eaa107b5c37eb94d258e9acbc2007b",
+    "research/control_blocks/feeder_tube.py": "5ff5ed804cbf08d668e9d3471cf031d10fc1dec92abf22de78673fd9c50f1711",
+    "theory/current_certificates.py": "351c0813952b9882c068afba3ce79520f8dd018490a58a0bf1137e36f2a409e1",
+    "theory/corrected_output.py": "0ebba392facc2f0e96dc30c48e786f7c90645a6f570c3b3d3bc8bdefdc3c376a",
+    "research/normalized_response/certify_study.py": "143765f84286a8206507de96d4295156f556209f12c76dba15a34e5337273408"
+  }
+}

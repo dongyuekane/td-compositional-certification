@@ -1,0 +1,90 @@
+{
+  "common_planning": {
+    "mixed9": {
+      "development_loads": [
+        0.9,
+        1.1,
+        1.25
+      ],
+      "equal_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "stress_load": 1.4,
+      "catalog_size": 144,
+      "common_feasible_portfolios": 80,
+      "selected_plan": 27,
+      "selected_objective": 14.150481719029065,
+      "selected_capital": 1.6242105263157895,
+      "selected_investment": {
+        "T": 0.0,
+        "X": 0.5,
+        "F": 1.0,
+        "S": 0.0,
+        "R": 1.0,
+        "C": 1.0
+      },
+      "stress_selected_feasible": false,
+      "stress_catalog_feasible": 32,
+      "stress_selected_objective": null
+    },
+    "mixed30": {
+      "development_loads": [
+        0.6,
+        0.7,
+        0.8
+      ],
+      "equal_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "stress_load": 0.9,
+      "catalog_size": 144,
+      "common_feasible_portfolios": 72,
+      "selected_plan": 1,
+      "selected_objective": 5.947454322699819,
+      "selected_capital": 0.24,
+      "selected_investment": {
+        "T": 0.0,
+        "X": 0.0,
+        "F": 0.0,
+        "S": 0.0,
+        "R": 0.0,
+        "C": 1.0
+      },
+      "stress_selected_feasible": false,
+      "stress_catalog_feasible": 0,
+      "stress_selected_objective": null
+    }
+  },
+  "normal_reference_states": 5184,
+  "fault_reference_states": 1296,
+  "trace_bytes": 45150469,
+  "trace_generation_seconds": 27.585182792507112,
+  "independently_checked_fault_optima": 16,
+  "max_fault_voltage_error_pu": 1.2290626121033571e-11,
+  "max_fault_loss_error_mw": 7.467448881470773e-11,
+  "stratified_independent_audit": {
+    "sample_selection": "Deterministic stratification: closest security boundary for all T/X/F strata in every normal profile; interior feasible/infeasible cases; every unique normal selected-control switch; fault boundaries/interiors and optima",
+    "checked_states": 266,
+    "normal_checked": 193,
+    "fault_checked": 73,
+    "feasible_checked": 132,
+    "infeasible_checked": 134,
+    "control_switch_checked": 22,
+    "physical_T_X_F_strata": 18,
+    "families": [
+      "mixed30",
+      "mixed9"
+    ],
+    "profiles": 8,
+    "max_voltage_error_pu": 1.0767229551065446e-10,
+    "max_loss_error_mw": 4.4778847296811364e-10,
+    "max_margin_error": 9.704370302135445e-10,
+    "feasibility_agreement_count": 266,
+    "feasibility_agreement_rate": 1.0,
+    "seconds": 1.7454419173300266
+  }
+}

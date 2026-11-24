@@ -1,0 +1,32 @@
+{
+  "status": "Exploratory approximation, not a rigorous certificate",
+  "families": {
+    "mixed9": [
+      0.9,
+      1.1,
+      1.25
+    ],
+    "mixed30": [
+      0.6,
+      0.7,
+      0.8
+    ]
+  },
+  "shape_seed": 20261108,
+  "degrees": [
+    6,
+    10
+  ],
+  "normalized_domain": [
+    0.4,
+    1.8
+  ],
+  "labels_per_family": 54,
+  "training_cost_policy": "An independently constructed Atlas is charged in full to every family and degree; no cross-family response sharing or free offline training",
+  "normal_states_per_profile": 648,
+  "reduced_newton_tolerance": 1e-11,
+  "baseline": "Network reuse plus sparse Newton with adjacent-control/investment and prior-profile residual-selected warm starts, tolerance 1e-10",
+  "main_reuse": "One main-grid ACSystem for each T level in each profile; all X/F/tap/cap combinations preserve their discrete feeder response label",
+  "timing_scope": "Training plus online state enumeration including assembly, warm-start selection, solves and physical metrics. File I/O, reference comparisons and common post-processing of investment menus are outside the comparative timing.",
+  "atlas_source_sha256": "4a1d81f865b655a337a88525e14fe738c16391d05621a37ed9bf463493ba787e"
+}

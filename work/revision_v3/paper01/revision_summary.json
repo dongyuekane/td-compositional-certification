@@ -1,0 +1,12 @@
+{
+  "component_solves_before": 756,
+  "component_solves_after": 552,
+  "reduction": 0.2698412698412699,
+  "fine_actions": 76,
+  "unresolved_retained": 154,
+  "total_times": {
+    "uniform": 4.801570084877312,
+    "adaptive": 4.787043125368655
+  },
+  "output": "01_IJEEPS_Manuscript_Anonymous.docx"
+}

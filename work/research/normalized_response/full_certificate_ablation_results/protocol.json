@@ -1,0 +1,41 @@
+{
+  "degree": 6,
+  "domain": [
+    0.4,
+    1.8
+  ],
+  "shape_seed": 20261108,
+  "family_loads": {
+    "mixed9": 1.25,
+    "mixed30": 0.8
+  },
+  "physical_grid": {
+    "T": [
+      0.0,
+      1.0
+    ],
+    "X": [
+      0.0,
+      1.0
+    ],
+    "F": [
+      0,
+      1
+    ]
+  },
+  "control_selection": "Every seventh action from the declared normal control menu, starting at zero; six per physical combination.",
+  "expected_states": 96,
+  "same_prediction": true,
+  "full_method": "Current-injection full-network inclusion, residual correction, quadratic loss at corrected center, electrical enclosures at corrected center.",
+  "compositional_method": "Offline whole-domain feeder tubes plus main-only inclusion and output composition; static main Hessian cached per T/profile.",
+  "timing_scope": "Each timer includes fresh preconditioning, regional derivatives and all loss/feasibility outputs. Prediction and offline training/certification are separate. No reference solve or file decompression is inside a certification timer.",
+  "state_order": "Lexicographic physical/control order. Certificate execution order alternates to reduce order bias.",
+  "source_sha256": {
+    "research/normalized_response/atlas.py": "2e288370145488df43385fadc7cc2d9b79f69e1636e360adcbedc156548463f7",
+    "research/normalized_response/coupled_certificate.py": "f589b83a82e9b52e35b238be53a00640d404eed329aaceefd019117345d29770",
+    "research/normalized_response/run_study.py": "006059103f34c1414563fc4df8a5a33745eaa107b5c37eb94d258e9acbc2007b",
+    "research/control_blocks/feeder_tube.py": "5ff5ed804cbf08d668e9d3471cf031d10fc1dec92abf22de78673fd9c50f1711",
+    "theory/current_certificates.py": "351c0813952b9882c068afba3ce79520f8dd018490a58a0bf1137e36f2a409e1",
+    "theory/corrected_output.py": "0ebba392facc2f0e96dc30c48e786f7c90645a6f570c3b3d3bc8bdefdc3c376a"
+  }
+}

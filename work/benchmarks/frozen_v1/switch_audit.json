@@ -1,0 +1,43 @@
+{
+  "scope": "All 11 S=0 adjacent-transformer pairs with both investments feasible and different exact optimal normal controls, across all eight frozen profiles. S=1 duplicates removed. No selective case omission.",
+  "comparison": "Freeze small-investment exact optimal control at larger investment and run full AC; compare with large-investment exact control reoptimization",
+  "pairs": 11,
+  "fixed_action_infeasible": 3,
+  "fixed_action_feasible_but_economic_ranking_wrong": 7,
+  "economic_ranking_wrong_total": 7,
+  "max_absolute_delta_loss_error_mw": 0.01716496564426162,
+  "max_absolute_delta_objective_error_million_cny": 0.24568887579416365,
+  "all_fixed_actions_independently_checked": true,
+  "corridor_outage_audit": [
+    {
+      "family": "mixed9",
+      "corridor_zero_based_indices": [
+        2,
+        4
+      ],
+      "outaged_zero_based_index": 2,
+      "active_upgraded_indices": [
+        4
+      ],
+      "outaged_branch_flow_mva": 0.0,
+      "capital_increment_million_cny": 1.2,
+      "capital_retained_when_asset_outaged": true,
+      "passed": true
+    },
+    {
+      "family": "mixed30",
+      "corridor_zero_based_indices": [
+        5,
+        9
+      ],
+      "outaged_zero_based_index": 9,
+      "active_upgraded_indices": [
+        5
+      ],
+      "outaged_branch_flow_mva": 0.0,
+      "capital_increment_million_cny": 1.2,
+      "capital_retained_when_asset_outaged": true,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "degree": 6,
+    "training_seconds": 0.47976762522011995,
+    "training_pf": 378,
+    "training_newton": 1180,
+    "test_states": 96,
+    "max_voltage_error": 7.567399969492874e-07,
+    "max_loss_error": 4.354961088193221e-06,
+    "max_residual": 6.229063323204276e-07,
+    "mean_reduced_seconds": 0.0005855217653637131
+  },
+  {
+    "degree": 10,
+    "training_seconds": 0.7147026667371392,
+    "training_pf": 594,
+    "training_newton": 1775,
+    "test_states": 96,
+    "max_voltage_error": 6.927536372858973e-10,
+    "max_loss_error": 3.1641440578766833e-09,
+    "max_residual": 6.13755879452782e-10,
+    "mean_reduced_seconds": 0.0005940542129489282
+  },
+  {
+    "degree": 14,
+    "training_seconds": 0.9442296661436558,
+    "training_pf": 810,
+    "training_newton": 2369,
+    "test_states": 96,
+    "max_voltage_error": 1.9028299197200605e-10,
+    "max_loss_error": 1.9762103065090741e-10,
+    "max_residual": 3.165150351263644e-11,
+    "mean_reduced_seconds": 0.000597574709293743
+  }
+]

@@ -1,0 +1,257 @@
+{
+  "protocol": {
+    "status": "Exploratory approximation, not a rigorous certificate",
+    "families": {
+      "mixed9": [
+        0.9,
+        1.1,
+        1.25
+      ],
+      "mixed30": [
+        0.6,
+        0.7,
+        0.8
+      ]
+    },
+    "shape_seed": 20261108,
+    "degrees": [
+      6,
+      10
+    ],
+    "normalized_domain": [
+      0.4,
+      1.8
+    ],
+    "labels_per_family": 54,
+    "training_cost_policy": "An independently constructed Atlas is charged in full to every family and degree; no cross-family response sharing or free offline training",
+    "normal_states_per_profile": 648,
+    "reduced_newton_tolerance": 1e-11,
+    "baseline": "Network reuse plus sparse Newton with adjacent-control/investment and prior-profile residual-selected warm starts, tolerance 1e-10",
+    "main_reuse": "One main-grid ACSystem for each T level in each profile; all X/F/tap/cap combinations preserve their discrete feeder response label",
+    "timing_scope": "Training plus online state enumeration including assembly, warm-start selection, solves and physical metrics. File I/O, reference comparisons and common post-processing of investment menus are outside the comparative timing.",
+    "atlas_source_sha256": "4a1d81f865b655a337a88525e14fe738c16391d05621a37ed9bf463493ba787e"
+  },
+  "family_runtime": [
+    {
+      "family": "mixed9",
+      "method": "sparse_reuse_warm",
+      "degree": null,
+      "training_seconds": 0.0,
+      "training_samples": 0,
+      "training_newton_updates": 0,
+      "online_seconds": 1.9457384180277586,
+      "total_seconds": 1.9457384180277586,
+      "online_newton_updates": 7363,
+      "states": 1944,
+      "classification_disagreements": 0
+    },
+    {
+      "family": "mixed30",
+      "method": "sparse_reuse_warm",
+      "degree": null,
+      "training_seconds": 0.0,
+      "training_samples": 0,
+      "training_newton_updates": 0,
+      "online_seconds": 2.006973374634981,
+      "total_seconds": 2.006973374634981,
+      "online_newton_updates": 6361,
+      "states": 1944,
+      "classification_disagreements": 0
+    },
+    {
+      "family": "mixed9",
+      "method": "atlas_degree6",
+      "degree": 6,
+      "training_seconds": 0.45147191639989614,
+      "training_samples": 378,
+      "training_newton_updates": 1180,
+      "online_seconds": 1.0991549994796515,
+      "total_seconds": 1.5506269158795476,
+      "online_newton_updates": 5422,
+      "states": 1944,
+      "classification_disagreements": 0,
+      "max_full_residual": 6.229063403973001e-07,
+      "max_loss_error_mw": 4.354980171594747e-06,
+      "max_complex_voltage_error_pu": 7.567398363186159e-07,
+      "exact_fallbacks": 0,
+      "speedup_including_training": 1.2548075865973831,
+      "time_reduction_including_training": 0.2030650669624462
+    },
+    {
+      "family": "mixed30",
+      "method": "atlas_degree6",
+      "degree": 6,
+      "training_seconds": 0.45370058342814445,
+      "training_samples": 378,
+      "training_newton_updates": 1180,
+      "online_seconds": 1.382095292210579,
+      "total_seconds": 1.8357958756387234,
+      "online_newton_updates": 5356,
+      "states": 1944,
+      "classification_disagreements": 0,
+      "max_full_residual": 4.0694838678023704e-07,
+      "max_loss_error_mw": 2.0250705649038636e-06,
+      "max_complex_voltage_error_pu": 3.9008344978532265e-07,
+      "exact_fallbacks": 0,
+      "speedup_including_training": 1.0932442987087005,
+      "time_reduction_including_training": 0.08529136517687519
+    },
+    {
+      "family": "mixed9",
+      "method": "atlas_degree10",
+      "degree": 10,
+      "training_seconds": 0.6846143752336502,
+      "training_samples": 594,
+      "training_newton_updates": 1775,
+      "online_seconds": 1.108324958011508,
+      "total_seconds": 1.7929393332451582,
+      "online_newton_updates": 5422,
+      "states": 1944,
+      "classification_disagreements": 0,
+      "max_full_residual": 6.159474319478164e-10,
+      "max_loss_error_mw": 3.224015054925644e-09,
+      "max_complex_voltage_error_pu": 6.934687320259986e-10,
+      "exact_fallbacks": 0,
+      "speedup_including_training": 1.0852226742697642,
+      "time_reduction_including_training": 0.07853012684895266
+    },
+    {
+      "family": "mixed30",
+      "method": "atlas_degree10",
+      "degree": 10,
+      "training_seconds": 0.6847720425575972,
+      "training_samples": 594,
+      "training_newton_updates": 1775,
+      "online_seconds": 1.385878749191761,
+      "total_seconds": 2.070650791749358,
+      "online_newton_updates": 5356,
+      "states": 1944,
+      "classification_disagreements": 0,
+      "max_full_residual": 5.091718158212188e-10,
+      "max_loss_error_mw": 2.115983943618005e-09,
+      "max_complex_voltage_error_pu": 4.942506772957948e-10,
+      "exact_fallbacks": 0,
+      "speedup_including_training": 0.9692476310500525,
+      "time_reduction_including_training": -0.031728082653791345
+    }
+  ],
+  "totals": [
+    {
+      "method": "sparse_reuse_warm",
+      "families": 2,
+      "states": 3888,
+      "training_seconds": 0.0,
+      "online_seconds": 3.9527117926627398,
+      "total_seconds": 3.9527117926627398,
+      "classification_disagreements": 0,
+      "training_samples": 0,
+      "speedup_including_training": 1.0,
+      "time_reduction_including_training": 0.0
+    },
+    {
+      "method": "atlas_degree6",
+      "families": 2,
+      "states": 3888,
+      "training_seconds": 0.9051724998280406,
+      "online_seconds": 2.4812502916902304,
+      "total_seconds": 3.386422791518271,
+      "classification_disagreements": 0,
+      "training_samples": 756,
+      "speedup_including_training": 1.1672233610530889,
+      "time_reduction_including_training": 0.14326594774646817
+    },
+    {
+      "method": "atlas_degree10",
+      "families": 2,
+      "states": 3888,
+      "training_seconds": 1.3693864177912474,
+      "online_seconds": 2.494203707203269,
+      "total_seconds": 3.8635901249945164,
+      "classification_disagreements": 0,
+      "training_samples": 1188,
+      "speedup_including_training": 1.023067060631425,
+      "time_reduction_including_training": 0.022546968345543483
+    }
+  ],
+  "common_planning": [
+    {
+      "family": "mixed9",
+      "method": "sparse_reuse_warm",
+      "common_feasible_portfolios": 80,
+      "selected_plan": 27,
+      "approximate_objective": 14.150481718830875,
+      "reference_selected_plan": 27,
+      "selected_plan_matches": true,
+      "selected_reference_feasible": true,
+      "selected_reference_objective": 14.150481719029065,
+      "true_objective_regret": 0.0,
+      "objective_error_at_selected": -1.9818990892872534e-10
+    },
+    {
+      "family": "mixed30",
+      "method": "sparse_reuse_warm",
+      "common_feasible_portfolios": 72,
+      "selected_plan": 1,
+      "approximate_objective": 5.947454322980378,
+      "reference_selected_plan": 1,
+      "selected_plan_matches": true,
+      "selected_reference_feasible": true,
+      "selected_reference_objective": 5.947454322699819,
+      "true_objective_regret": 0.0,
+      "objective_error_at_selected": 2.8055868739329526e-10
+    },
+    {
+      "family": "mixed9",
+      "method": "atlas_degree6",
+      "common_feasible_portfolios": 80,
+      "selected_plan": 27,
+      "approximate_objective": 14.15048160305841,
+      "reference_selected_plan": 27,
+      "selected_plan_matches": true,
+      "selected_reference_feasible": true,
+      "selected_reference_objective": 14.150481719029065,
+      "true_objective_regret": 0.0,
+      "objective_error_at_selected": -1.1597065530111195e-07
+    },
+    {
+      "family": "mixed30",
+      "method": "atlas_degree6",
+      "common_feasible_portfolios": 72,
+      "selected_plan": 1,
+      "approximate_objective": 5.9474559897196615,
+      "reference_selected_plan": 1,
+      "selected_plan_matches": true,
+      "selected_reference_feasible": true,
+      "selected_reference_objective": 5.947454322699819,
+      "true_objective_regret": 0.0,
+      "objective_error_at_selected": 1.6670198421664395e-06
+    },
+    {
+      "family": "mixed9",
+      "method": "atlas_degree10",
+      "common_feasible_portfolios": 80,
+      "selected_plan": 27,
+      "approximate_objective": 14.150481719065672,
+      "reference_selected_plan": 27,
+      "selected_plan_matches": true,
+      "selected_reference_feasible": true,
+      "selected_reference_objective": 14.150481719029065,
+      "true_objective_regret": 0.0,
+      "objective_error_at_selected": 3.660716174636036e-11
+    },
+    {
+      "family": "mixed30",
+      "method": "atlas_degree10",
+      "common_feasible_portfolios": 72,
+      "selected_plan": 1,
+      "approximate_objective": 5.947454327361498,
+      "reference_selected_plan": 1,
+      "selected_plan_matches": true,
+      "selected_reference_feasible": true,
+      "selected_reference_objective": 5.947454322699819,
+      "true_objective_regret": 0.0,
+      "objective_error_at_selected": 4.661679042783362e-09
+    }
+  ],
+  "total_audit_wall_seconds": 12.363470833748579
+}

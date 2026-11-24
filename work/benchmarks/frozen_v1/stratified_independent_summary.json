@@ -1,0 +1,21 @@
+{
+  "sample_selection": "Deterministic stratification: closest security boundary for all T/X/F strata in every normal profile; interior feasible/infeasible cases; every unique normal selected-control switch; fault boundaries/interiors and optima",
+  "checked_states": 266,
+  "normal_checked": 193,
+  "fault_checked": 73,
+  "feasible_checked": 132,
+  "infeasible_checked": 134,
+  "control_switch_checked": 22,
+  "physical_T_X_F_strata": 18,
+  "families": [
+    "mixed30",
+    "mixed9"
+  ],
+  "profiles": 8,
+  "max_voltage_error_pu": 1.0767229551065446e-10,
+  "max_loss_error_mw": 4.4778847296811364e-10,
+  "max_margin_error": 9.704370302135445e-10,
+  "feasibility_agreement_count": 266,
+  "feasibility_agreement_rate": 1.0,
+  "seconds": 1.7454419173300266
+}

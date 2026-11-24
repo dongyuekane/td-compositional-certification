@@ -1,0 +1,56 @@
+{
+  "verified_on": "2026-11-07",
+  "references": [
+    {
+      "id": "dai2026aggregation",
+      "authors": ["Xinliang Dai", "Yanlin Jiang", "Frederik Zahn", "Yi Guo", "Veit Hagenmeyer"],
+      "title": "Distributed coordination for transmission-distribution systems with nonlinear flexibility aggregation",
+      "year": 2026,
+      "type": "preprint",
+      "identifier": "arXiv:2608.06341",
+      "primary_urls": ["https://arxiv.org/pdf/2608.06341"],
+      "verified_material": "Full author preprint, especially equations (2), (12)-(19), Theorem 2 and Corollary 1.",
+      "supports": "Implicit nonlinear T/D feasibility aggregation, predictor-corrector surrogate, cubic local error bound and feasible-set misclassification-distance bound; reduced-dimensional operational optimization.",
+      "boundary": "Prescribed PCC voltage in the reported distribution model; local regularity neighborhood assumed. Does not support a claim that every proposed surrogate point is safe. Investment-dependent finite discrete recourse and a full catalogue cost-gap certificate were not identified in the inspected method. Preprint only."
+    },
+    {
+      "id": "mokhtari2026optikron",
+      "authors": ["Omid Mokhtari", "Samuel Chevalier", "Mads Almassalkhi"],
+      "title": "Optimal Kron-based Reduction of Networks (Opti-KRON) for Three-phase Distribution Feeders",
+      "year": 2026,
+      "type": "preprint-version; publisher version located but metadata incomplete",
+      "identifier": "arXiv:2510.19608v3",
+      "primary_urls": ["https://arxiv.org/abs/2510.19608", "https://www.sciencedirect.com/science/article/pii/S0378779626009089", "https://github.com/OmidMkht/Opti-KRON"],
+      "verified_material": "Author preprint abstract, publisher search-indexed text, author implementation documentation.",
+      "supports": "Structure-preserving three-phase node aggregation selected by mixed-integer optimization and parallel exhaustive search with voltage margin constraints.",
+      "boundary": "The author code distinguishes linearized annulus constraints from original voltage-error checks. This is not evidence of rigorous uniform AC-root certification across every new operating point. Journal DOI and issue not verified; do not invent them."
+    },
+    {
+      "id": "dai2026distflow",
+      "authors": ["Xinliang Dai"],
+      "title": "DistFlow and Its Conic Relaxation: Regularity, Monotonicity, and Hybrid Exactness via Graph Decomposition",
+      "year": 2026,
+      "type": "preprint",
+      "identifier": "arXiv:2610.41220",
+      "primary_urls": ["https://arxiv.org/abs/2610.41220"],
+      "verified_material": "Author preprint abstract and scope.",
+      "supports": "Composes regional certificates of conic-relaxation exactness, accounting for voltage-mediated downstream effects.",
+      "boundary": "Different certificate target: relaxation exactness under radial-network conditions, rather than approximate-response error lifted to an enclosed coupled AC root. Preprint posted 2026-10-30."
+    },
+    {
+      "id": "liu2022lossless",
+      "authors": ["Nian Liu", "Chenchen Li", "Liudong Chen", "Jianhui Wang"],
+      "title": "Hybrid Data-Driven and Model-Based Distribution Network Reconfiguration With Lossless Model Reduction",
+      "year": 2022,
+      "journal": "IEEE Transactions on Industrial Informatics",
+      "volume": "18",
+      "issue": "5",
+      "pages": "2943-2954",
+      "doi": "10.1109/TII.2021.3103934",
+      "primary_urls": ["https://liudong-chen.github.io/assets/Hybrid_Data_Driven.pdf"],
+      "verified_material": "Author-hosted final paper opening and model-reduction/recovery description.",
+      "supports": "Decision-oriented network reduction and hierarchical recovery for discrete reconfiguration, combined with learning.",
+      "boundary": "Not a T/D investment certificate. Its existence prevents broad claims that preserving discrete decisions through reduction is itself new. Detailed lossless conditions should be read before any direct quantitative comparison."
+    }
+  ]
+}

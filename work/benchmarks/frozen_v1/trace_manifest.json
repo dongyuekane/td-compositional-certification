@@ -1,0 +1,194 @@
+[
+  {
+    "csv": "pilot/unmodified/mixed30_0.60_states.csv",
+    "npz": "pilot/unmodified/mixed30_0.60_traces.npz",
+    "rows": 648,
+    "seconds": 2.9746181247755885,
+    "bytes": 4812926,
+    "sha256": "33c6150e3e18e2cc2eeec1dd958b66aae094933b075f33a40af405cc074f2008"
+  },
+  {
+    "csv": "pilot/unmodified/mixed30_0.70_states.csv",
+    "npz": "pilot/unmodified/mixed30_0.70_traces.npz",
+    "rows": 648,
+    "seconds": 3.005654124543071,
+    "bytes": 4830126,
+    "sha256": "80059810f50bbe61e4572802a706639c8d06bb91f36e65f276b1101f5054da9d"
+  },
+  {
+    "csv": "pilot/unmodified/mixed30_0.80_states.csv",
+    "npz": "pilot/unmodified/mixed30_0.80_traces.npz",
+    "rows": 648,
+    "seconds": 3.017330499365926,
+    "bytes": 4838951,
+    "sha256": "a6dee4b3524313eafd77e4150cb2cf43c2f937727dddb03ee1c01896e8ee7015"
+  },
+  {
+    "csv": "pilot/unmodified/mixed30_0.90_states.csv",
+    "npz": "pilot/unmodified/mixed30_0.90_traces.npz",
+    "rows": 648,
+    "seconds": 3.0201372914016247,
+    "bytes": 4854949,
+    "sha256": "dd1e91362602d3a8cb8a065eb0f3054257fbb035827b56a21449c94f83ac409d"
+  },
+  {
+    "csv": "pilot/unmodified/mixed9_0.90_states.csv",
+    "npz": "pilot/unmodified/mixed9_0.90_traces.npz",
+    "rows": 648,
+    "seconds": 2.4202754590660334,
+    "bytes": 4139470,
+    "sha256": "e4204072626ebe772a76b48b843ee0e63c5c5a1f0b607fb46503be2f6caef888"
+  },
+  {
+    "csv": "pilot/unmodified/mixed9_1.10_states.csv",
+    "npz": "pilot/unmodified/mixed9_1.10_traces.npz",
+    "rows": 648,
+    "seconds": 2.405429458245635,
+    "bytes": 4164165,
+    "sha256": "2b314883b8dfcc54826fd83c0b437768361c943a5c3b2423aa6c347287e2b558"
+  },
+  {
+    "csv": "pilot/unmodified/mixed9_1.25_states.csv",
+    "npz": "pilot/unmodified/mixed9_1.25_traces.npz",
+    "rows": 648,
+    "seconds": 2.4561823327094316,
+    "bytes": 4181618,
+    "sha256": "c428bb3105db1a7310e7a5450bbdbf10e7d0216c6b22c576da08fda2a0918d17"
+  },
+  {
+    "csv": "pilot/unmodified/mixed9_1.40_states.csv",
+    "npz": "pilot/unmodified/mixed9_1.40_traces.npz",
+    "rows": 648,
+    "seconds": 2.5509412502869964,
+    "bytes": 4199663,
+    "sha256": "a4395eccb94944934de5971168db77f16ee98dbee3778f0aec11c2f33c0c3efb"
+  },
+  {
+    "csv": "pilot/faults/mixed30_0.70_p31_e1_states.csv",
+    "npz": "pilot/faults/mixed30_0.70_p31_e1_traces.npz",
+    "rows": 36,
+    "seconds": 0.1843635831028223,
+    "bytes": 273877,
+    "sha256": "b3c6c8a98c8bce4500eaac338b973eaec3a46eba48bbd7736683f22687f2aa9e"
+  },
+  {
+    "csv": "pilot/faults/mixed30_0.70_p31_e2_states.csv",
+    "npz": "pilot/faults/mixed30_0.70_p31_e2_traces.npz",
+    "rows": 108,
+    "seconds": 0.5038986671715975,
+    "bytes": 805168,
+    "sha256": "6c9f8b12b32016ae5f5e0eebd0f19d17684c204a63ec0e0f1f03345dd7de7fee"
+  },
+  {
+    "csv": "pilot/faults/mixed30_0.70_p47_e1_states.csv",
+    "npz": "pilot/faults/mixed30_0.70_p47_e1_traces.npz",
+    "rows": 36,
+    "seconds": 0.18560333363711834,
+    "bytes": 274161,
+    "sha256": "dba6423f4e845699859eee9ba488bf2ab38f8dfd85eeabc3ecf513aca7074577"
+  },
+  {
+    "csv": "pilot/faults/mixed30_0.70_p47_e2_states.csv",
+    "npz": "pilot/faults/mixed30_0.70_p47_e2_traces.npz",
+    "rows": 108,
+    "seconds": 0.50221445877105,
+    "bytes": 806851,
+    "sha256": "1ae77a8875ee5b238de3f6e4d0d5e56dc235ccfb19bbc8e0f8e72ed25e097cad"
+  },
+  {
+    "csv": "pilot/faults/mixed30_0.80_p31_e1_states.csv",
+    "npz": "pilot/faults/mixed30_0.80_p31_e1_traces.npz",
+    "rows": 108,
+    "seconds": 0.5516559174284339,
+    "bytes": 818383,
+    "sha256": "dbd13e4586a9a60a1a3f09b1d84e54d6750afe5a42f3f4a770757a6aeb5ed39f"
+  },
+  {
+    "csv": "pilot/faults/mixed30_0.80_p31_e2_states.csv",
+    "npz": "pilot/faults/mixed30_0.80_p31_e2_traces.npz",
+    "rows": 108,
+    "seconds": 0.5017157923430204,
+    "bytes": 806688,
+    "sha256": "8d54d3772261292c6c48a8e45c799d1a45eeb8072e2b21c45709335d7f295b83"
+  },
+  {
+    "csv": "pilot/faults/mixed30_0.80_p47_e1_states.csv",
+    "npz": "pilot/faults/mixed30_0.80_p47_e1_traces.npz",
+    "rows": 108,
+    "seconds": 0.550891375169158,
+    "bytes": 820046,
+    "sha256": "93ade90616f22a4eb02ec81ad6c6cdf082117fce5e856850b2f9d44910827387"
+  },
+  {
+    "csv": "pilot/faults/mixed30_0.80_p47_e2_states.csv",
+    "npz": "pilot/faults/mixed30_0.80_p47_e2_traces.npz",
+    "rows": 108,
+    "seconds": 0.5063404580578208,
+    "bytes": 808661,
+    "sha256": "30fa6971022988fd9788076230a1280fd5bbe3b02e17c5a2d6523072a30b831d"
+  },
+  {
+    "csv": "pilot/faults/mixed9_1.10_p31_e1_states.csv",
+    "npz": "pilot/faults/mixed9_1.10_p31_e1_traces.npz",
+    "rows": 36,
+    "seconds": 0.14701112546026707,
+    "bytes": 230242,
+    "sha256": "5928f3a5802265a6ba75022d17dd0f837c3af9e14f99f5dc359f731e7e8e8578"
+  },
+  {
+    "csv": "pilot/faults/mixed9_1.10_p31_e2_states.csv",
+    "npz": "pilot/faults/mixed9_1.10_p31_e2_traces.npz",
+    "rows": 108,
+    "seconds": 0.4046984165906906,
+    "bytes": 695682,
+    "sha256": "f40d033e5b299a138e33fa5347d1a0cb42e1cc96a2ef2e6d091eaee85750f8a4"
+  },
+  {
+    "csv": "pilot/faults/mixed9_1.10_p47_e1_states.csv",
+    "npz": "pilot/faults/mixed9_1.10_p47_e1_traces.npz",
+    "rows": 36,
+    "seconds": 0.14862087462097406,
+    "bytes": 230334,
+    "sha256": "cad83194d3be0f625ce2286dd0a6d12373bea2e9e38b4bd3ee7580e7c0922877"
+  },
+  {
+    "csv": "pilot/faults/mixed9_1.10_p47_e2_states.csv",
+    "npz": "pilot/faults/mixed9_1.10_p47_e2_traces.npz",
+    "rows": 108,
+    "seconds": 0.41427241638302803,
+    "bytes": 696743,
+    "sha256": "ebe3c382183944b2852b2b28756de1db52afe78929a61629ddf6e5c4b25df777"
+  },
+  {
+    "csv": "pilot/faults/mixed9_1.25_p31_e1_states.csv",
+    "npz": "pilot/faults/mixed9_1.25_p31_e1_traces.npz",
+    "rows": 36,
+    "seconds": 0.14930729195475578,
+    "bytes": 231655,
+    "sha256": "dc3acdcd7f200e684d5d628405ee20aad3cbcabaa16410e4fc6b7f671db24f05"
+  },
+  {
+    "csv": "pilot/faults/mixed9_1.25_p31_e2_states.csv",
+    "npz": "pilot/faults/mixed9_1.25_p31_e2_traces.npz",
+    "rows": 108,
+    "seconds": 0.4156676661223173,
+    "bytes": 698679,
+    "sha256": "6743c44a32b93c75aaf5e6ec788f5ea6d7d1165835f7b79007ae9a6e7e381687"
+  },
+  {
+    "csv": "pilot/faults/mixed9_1.25_p47_e1_states.csv",
+    "npz": "pilot/faults/mixed9_1.25_p47_e1_traces.npz",
+    "rows": 36,
+    "seconds": 0.15036100056022406,
+    "bytes": 231422,
+    "sha256": "572a22881a8b26a93021551828fd44bce6955a22c526635ebfaf139802ecc020"
+  },
+  {
+    "csv": "pilot/faults/mixed9_1.25_p47_e2_states.csv",
+    "npz": "pilot/faults/mixed9_1.25_p47_e2_traces.npz",
+    "rows": 108,
+    "seconds": 0.4179918747395277,
+    "bytes": 700009,
+    "sha256": "4f5c80d201f22f2d048ff7be9969dc8585139e6b2e766fc1e3003b1b122bd140"
+  }
+]

@@ -1,0 +1,114 @@
+{
+  "checks": [
+    {
+      "repetition": 1,
+      "family": "mixed9",
+      "load": 0.9,
+      "prediction_matches_certified_pipeline": true
+    },
+    {
+      "repetition": 1,
+      "family": "mixed9",
+      "load": 1.1,
+      "prediction_matches_certified_pipeline": true
+    },
+    {
+      "repetition": 1,
+      "family": "mixed9",
+      "load": 1.25,
+      "prediction_matches_certified_pipeline": true
+    },
+    {
+      "repetition": 1,
+      "family": "mixed30",
+      "load": 0.6,
+      "prediction_matches_certified_pipeline": true
+    },
+    {
+      "repetition": 1,
+      "family": "mixed30",
+      "load": 0.7,
+      "prediction_matches_certified_pipeline": true
+    },
+    {
+      "repetition": 1,
+      "family": "mixed30",
+      "load": 0.8,
+      "prediction_matches_certified_pipeline": true
+    },
+    {
+      "repetition": 2,
+      "family": "mixed9",
+      "load": 0.9,
+      "prediction_matches_certified_pipeline": true
+    },
+    {
+      "repetition": 2,
+      "family": "mixed9",
+      "load": 1.1,
+      "prediction_matches_certified_pipeline": true
+    },
+    {
+      "repetition": 2,
+      "family": "mixed9",
+      "load": 1.25,
+      "prediction_matches_certified_pipeline": true
+    },
+    {
+      "repetition": 2,
+      "family": "mixed30",
+      "load": 0.6,
+      "prediction_matches_certified_pipeline": true
+    },
+    {
+      "repetition": 2,
+      "family": "mixed30",
+      "load": 0.7,
+      "prediction_matches_certified_pipeline": true
+    },
+    {
+      "repetition": 2,
+      "family": "mixed30",
+      "load": 0.8,
+      "prediction_matches_certified_pipeline": true
+    },
+    {
+      "repetition": 3,
+      "family": "mixed9",
+      "load": 0.9,
+      "prediction_matches_certified_pipeline": true
+    },
+    {
+      "repetition": 3,
+      "family": "mixed9",
+      "load": 1.1,
+      "prediction_matches_certified_pipeline": true
+    },
+    {
+      "repetition": 3,
+      "family": "mixed9",
+      "load": 1.25,
+      "prediction_matches_certified_pipeline": true
+    },
+    {
+      "repetition": 3,
+      "family": "mixed30",
+      "load": 0.6,
+      "prediction_matches_certified_pipeline": true
+    },
+    {
+      "repetition": 3,
+      "family": "mixed30",
+      "load": 0.7,
+      "prediction_matches_certified_pipeline": true
+    },
+    {
+      "repetition": 3,
+      "family": "mixed30",
+      "load": 0.8,
+      "prediction_matches_certified_pipeline": true
+    }
+  ],
+  "all_matched": true,
+  "meaning": "All 18 independently generated uncertified profile prediction arrays exactly match the corresponding certified pipeline prediction arrays."
+}

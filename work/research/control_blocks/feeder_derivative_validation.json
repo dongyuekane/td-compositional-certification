@@ -1,0 +1,6 @@
+{
+  "tested_points": 156,
+  "failures": [],
+  "max_observed_derivative_error_fraction": 0.9680725669857294,
+  "statement": "Diagnostics only. Bounds were formed analytically before these test points."
+}

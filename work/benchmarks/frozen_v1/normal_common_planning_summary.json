@@ -1,0 +1,60 @@
+{
+  "mixed9": {
+    "development_loads": [
+      0.9,
+      1.1,
+      1.25
+    ],
+    "equal_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "stress_load": 1.4,
+    "catalog_size": 144,
+    "common_feasible_portfolios": 80,
+    "selected_plan": 27,
+    "selected_objective": 14.150481719029065,
+    "selected_capital": 1.6242105263157895,
+    "selected_investment": {
+      "T": 0.0,
+      "X": 0.5,
+      "F": 1.0,
+      "S": 0.0,
+      "R": 1.0,
+      "C": 1.0
+    },
+    "stress_selected_feasible": false,
+    "stress_catalog_feasible": 32,
+    "stress_selected_objective": null
+  },
+  "mixed30": {
+    "development_loads": [
+      0.6,
+      0.7,
+      0.8
+    ],
+    "equal_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "stress_load": 0.9,
+    "catalog_size": 144,
+    "common_feasible_portfolios": 72,
+    "selected_plan": 1,
+    "selected_objective": 5.947454322699819,
+    "selected_capital": 0.24,
+    "selected_investment": {
+      "T": 0.0,
+      "X": 0.0,
+      "F": 0.0,
+      "S": 0.0,
+      "R": 0.0,
+      "C": 1.0
+    },
+    "stress_selected_feasible": false,
+    "stress_catalog_feasible": 0,
+    "stress_selected_objective": null
+  }
+}
